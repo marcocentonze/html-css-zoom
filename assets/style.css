@@ -75,7 +75,7 @@ span.name {
     font-size: 15px;
 }
 .member_card {
-    margin: 0.5rem;
+    border-right:5px solid black;
     width: 250px;
     position: relative;
     width: calc(100% /7);
