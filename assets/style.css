@@ -106,26 +106,22 @@ p,span,a,h1 {
     text-align: center;
 }
 
-.manage .exit{
+.manage .exit-call{
     align-items: center;
 }
 
-.tools{
-    
+.bar-tools{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.exit{
-    color: var(--zo-btn-text);
+.exit-call{
     background-color: var(--zo-light-dark);
     padding: 10px;
     height: 57px;
     align-items: center;
-    
+    color: var(--zo-btn-text);
 }
-
-
 
 /* fine footer */
