@@ -54,11 +54,13 @@ header{
 
 /* inizio Main */
 main {
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 100px);
     overflow-y: auto;
 }
 
 .members_grid {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
@@ -76,6 +78,8 @@ span.name {
     margin: 0.5rem;
     width: 250px;
     position: relative;
+    width: calc(100% /7);
+    
 }
 
 .member_card img {
@@ -86,3 +90,4 @@ p,span,a,h1 {
     text-align: center;
     color: var(--zo-light);
 } 
+/* fine main */
