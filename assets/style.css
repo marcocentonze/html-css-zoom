@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     height: 100vh;
     background-color: var(--zo-dark);
 }   
@@ -20,6 +20,7 @@ body {
 }
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 /* fine utility */
 
@@ -50,3 +51,38 @@ header{
     gap: 0.2rem;
 }
 /* fine header */
+
+/* inizio Main */
+main {
+    height: calc(100vh - 6rem);
+    overflow-y: auto;
+}
+
+.members_grid {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+span.name {
+    background-color: var(--zo-light-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.2rem;
+    line-height: 19px;
+    font-size: 15px;
+}
+.member_card {
+    margin: 0.5rem;
+    width: 250px;
+    position: relative;
+}
+
+.member_card img {
+    display: block;
+}
+
+p,span,a,h1 {
+    text-align: center;
+    color: var(--zo-light);
+} 
