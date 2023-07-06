@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background-color: var(--zo-dark);
+}   
+/* utility */
+:root {
+    --zo-footer: #222222;
+    --zo-dark: #000000;
+    --zo-light: #ffffff;
+    --zo-light-dark: rgba(74, 74, 74, 1);
+    --zo-btn-text: #f42734;
+    --zo-icon: #4bc800;
+    
+}
+.d-flex{
+    display: flex;
+}
+/* fine utility */
+
+
+/* section header */
+header{
+    position: sticky;
+    height: 70px;
+    width: 100%;
+    color: var(--zo-light);
+}
+
+.view{
+    position: fixed;
+    right: 0;
+    gap: 0.3rem;
+    margin: 1rem;
+    justify-content: flex-end;
+}
+
+.speaker, .full-screen{
+    background-color: var(--zo-light-dark);
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+.speaker{
+    gap: 0.2rem;
+}
+/* fine header */
